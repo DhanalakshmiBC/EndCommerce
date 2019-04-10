@@ -37,16 +37,11 @@ public class TestBase {
 	
 	public void intialization()
 	{
-		if(prop.getProperty("browser").equals("chrome"))
-		{
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\resources\\drivers\\chromedriver.exe");
-			driver=new ChromeDriver();
-		}
-		else if(prop.getProperty("browser").equals("FF"))
-		{
-			System.setProperty("webdriver.gecko.driver", prop.getProperty("firefoxdriverpath"));
+		
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\resources\\drivers\\geckodriver.exe");
 			driver=new FirefoxDriver();
-		}
+		
+		
 		
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
