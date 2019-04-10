@@ -1,0 +1,37 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">42,143</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">Test1s</a></td><td class="num">1</td><td class="num">0</td><td class="num attn">1</td><td class="num">66,142</td><td></td><td></td></tr>
+<tr><td><a href="#t2">Test2s</a></td><td class="num">4</td><td class="num">0</td><td class="num">0</td><td class="num">75,665</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">Test3s</a></td><td class="num">3</td><td class="num">0</td><td class="num">0</td><td class="num">69,742</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">10</th><th class="num">0</th><th class="num attn">1</th><th class="num">253,692</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.curiositybox.testcases.SignUpPageTest</td><td><a href="#m0">registerFormverifyTest</a></td><td rowspan="1">1554875226228</td><td rowspan="1">3620</td></tr><tr class="passedeven"><td><a href="#m1">registerTest</a></td><td rowspan="1">1554875243487</td><td rowspan="1">5805</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">Test1s &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.curiositybox.testcases.GiftsPageTest</td><td><a href="#m2">VerifyProductTest</a></td><td rowspan="1">1554875306644</td><td rowspan="1">8843</td></tr><tr><th colspan="4">Test1s &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.curiositybox.testcases.GiftsPageTest</td><td><a href="#m3">titleVerifyTest</a></td><td rowspan="1">1554875281702</td><td rowspan="1">15</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">Test2s &#8212; passed</th></tr><tr class="passedeven"><td rowspan="4">com.curiositybox.testcases.LoginPageTest</td><td><a href="#m4">loginFormverifyTest</a></td><td rowspan="1">1554875364990</td><td rowspan="1">5679</td></tr><tr class="passedeven"><td><a href="#m5">loginTest</a></td><td rowspan="1">1554875384962</td><td rowspan="1">6307</td></tr><tr class="passedeven"><td><a href="#m6">urlverifyTest</a></td><td rowspan="1">1554875344276</td><td rowspan="1">27</td></tr><tr class="passedeven"><td><a href="#m7">verifyloginpageTest</a></td><td rowspan="1">1554875330444</td><td rowspan="1">254</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">Test3s &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.curiositybox.testcases.HomePageTest</td><td><a href="#m8">titleVerifyTest</a></td><td rowspan="1">1554875416263</td><td rowspan="1">7</td></tr><tr class="passedeven"><td><a href="#m9">verifyFooterLinksTest</a></td><td rowspan="1">1554875460565</td><td rowspan="1">529</td></tr><tr class="passedeven"><td><a href="#m10">verifyUsername</a></td><td rowspan="1">1554875440987</td><td rowspan="1">81</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">com.curiositybox.testcases.SignUpPageTest#registerFormverifyTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.curiositybox.testcases.SignUpPageTest#registerTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test1s</h2><h3 id="m2">com.curiositybox.testcases.GiftsPageTest#VerifyProductTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Lab Coat] but found [Chunky Magnifiers]
+	at com.curiositybox.testcases.GiftsPageTest.VerifyProductTest(GiftsPageTest.java:51)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.curiositybox.testcases.GiftsPageTest#titleVerifyTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test2s</h2><h3 id="m4">com.curiositybox.testcases.LoginPageTest#loginFormverifyTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.curiositybox.testcases.LoginPageTest#loginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.curiositybox.testcases.LoginPageTest#urlverifyTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.curiositybox.testcases.LoginPageTest#verifyloginpageTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test3s</h2><h3 id="m8">com.curiositybox.testcases.HomePageTest#titleVerifyTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">com.curiositybox.testcases.HomePageTest#verifyFooterLinksTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">com.curiositybox.testcases.HomePageTest#verifyUsername</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

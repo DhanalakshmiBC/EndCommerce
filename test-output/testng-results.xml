@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="11" passed="10">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="253871" started-at="2019-04-10T05:46:48Z" finished-at="2019-04-10T05:51:01Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="42143" started-at="2019-04-10T05:46:48Z" finished-at="2019-04-10T05:47:30Z">
+      <class name="com.curiositybox.testcases.SignUpPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.curiositybox.testcases.SignUpPageTest@215be6bb]" name="setup" is-config="true" duration-ms="18178" started-at="2019-04-10T05:46:48Z" finished-at="2019-04-10T05:47:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="registerFormverifyTest()[pri:1, instance:com.curiositybox.testcases.SignUpPageTest@215be6bb]" name="registerFormverifyTest" duration-ms="3620" started-at="2019-04-10T05:47:06Z" finished-at="2019-04-10T05:47:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerFormverifyTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.curiositybox.testcases.SignUpPageTest@215be6bb]" name="teardown" is-config="true" duration-ms="848" started-at="2019-04-10T05:47:09Z" finished-at="2019-04-10T05:47:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.curiositybox.testcases.SignUpPageTest@215be6bb]" name="setup" is-config="true" duration-ms="12780" started-at="2019-04-10T05:47:10Z" finished-at="2019-04-10T05:47:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="registerTest()[pri:0, instance:com.curiositybox.testcases.SignUpPageTest@215be6bb]" name="registerTest" duration-ms="5805" started-at="2019-04-10T05:47:23Z" depends-on-methods="com.curiositybox.testcases.SignUpPageTest.registerFormverifyTest" finished-at="2019-04-10T05:47:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registerTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.curiositybox.testcases.SignUpPageTest@215be6bb]" name="teardown" is-config="true" duration-ms="864" started-at="2019-04-10T05:47:29Z" finished-at="2019-04-10T05:47:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.curiositybox.testcases.SignUpPageTest -->
+    </test> <!-- Test -->
+    <test name="Test1s" duration-ms="66142" started-at="2019-04-10T05:47:30Z" finished-at="2019-04-10T05:48:36Z">
+      <class name="com.curiositybox.testcases.GiftsPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.curiositybox.testcases.GiftsPageTest@724af044]" name="setup" is-config="true" duration-ms="31475" started-at="2019-04-10T05:47:30Z" finished-at="2019-04-10T05:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="titleVerifyTest()[pri:1, instance:com.curiositybox.testcases.GiftsPageTest@724af044]" name="titleVerifyTest" duration-ms="15" started-at="2019-04-10T05:48:01Z" finished-at="2019-04-10T05:48:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerifyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.curiositybox.testcases.GiftsPageTest@724af044]" name="tearDown" is-config="true" duration-ms="679" started-at="2019-04-10T05:48:01Z" finished-at="2019-04-10T05:48:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.curiositybox.testcases.GiftsPageTest@724af044]" name="setup" is-config="true" duration-ms="24244" started-at="2019-04-10T05:48:02Z" finished-at="2019-04-10T05:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="FAIL" signature="VerifyProductTest()[pri:2, instance:com.curiositybox.testcases.GiftsPageTest@724af044]" name="VerifyProductTest" duration-ms="8843" started-at="2019-04-10T05:48:26Z" finished-at="2019-04-10T05:48:35Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [Lab Coat] but found [Chunky Magnifiers]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [Lab Coat] but found [Chunky Magnifiers]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at com.curiositybox.testcases.GiftsPageTest.VerifyProductTest(GiftsPageTest.java:51)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyProductTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.curiositybox.testcases.GiftsPageTest@724af044]" name="tearDown" is-config="true" duration-ms="876" started-at="2019-04-10T05:48:35Z" finished-at="2019-04-10T05:48:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.curiositybox.testcases.GiftsPageTest -->
+    </test> <!-- Test1s -->
+    <test name="Test2s" duration-ms="75665" started-at="2019-04-10T05:48:36Z" finished-at="2019-04-10T05:49:52Z">
+      <class name="com.curiositybox.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.curiositybox.testcases.LoginPageTest@cb5822]" name="setup" is-config="true" duration-ms="14011" started-at="2019-04-10T05:48:36Z" finished-at="2019-04-10T05:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyloginpageTest()[pri:1, instance:com.curiositybox.testcases.LoginPageTest@cb5822]" name="verifyloginpageTest" duration-ms="254" started-at="2019-04-10T05:48:50Z" finished-at="2019-04-10T05:48:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyloginpageTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.curiositybox.testcases.LoginPageTest@cb5822]" name="tearDown" is-config="true" duration-ms="866" started-at="2019-04-10T05:48:50Z" finished-at="2019-04-10T05:48:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.curiositybox.testcases.LoginPageTest@cb5822]" name="setup" is-config="true" duration-ms="12710" started-at="2019-04-10T05:48:51Z" finished-at="2019-04-10T05:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="urlverifyTest()[pri:2, instance:com.curiositybox.testcases.LoginPageTest@cb5822]" name="urlverifyTest" duration-ms="27" started-at="2019-04-10T05:49:04Z" finished-at="2019-04-10T05:49:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlverifyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.curiositybox.testcases.LoginPageTest@cb5822]" name="tearDown" is-config="true" duration-ms="925" started-at="2019-04-10T05:49:04Z" finished-at="2019-04-10T05:49:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.curiositybox.testcases.LoginPageTest@cb5822]" name="setup" is-config="true" duration-ms="19706" started-at="2019-04-10T05:49:05Z" finished-at="2019-04-10T05:49:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginFormverifyTest()[pri:3, instance:com.curiositybox.testcases.LoginPageTest@cb5822]" name="loginFormverifyTest" duration-ms="5679" started-at="2019-04-10T05:49:24Z" finished-at="2019-04-10T05:49:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFormverifyTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.curiositybox.testcases.LoginPageTest@cb5822]" name="tearDown" is-config="true" duration-ms="795" started-at="2019-04-10T05:49:30Z" finished-at="2019-04-10T05:49:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.curiositybox.testcases.LoginPageTest@cb5822]" name="setup" is-config="true" duration-ms="13496" started-at="2019-04-10T05:49:31Z" finished-at="2019-04-10T05:49:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="loginTest()[pri:0, instance:com.curiositybox.testcases.LoginPageTest@cb5822]" name="loginTest" duration-ms="6307" started-at="2019-04-10T05:49:44Z" depends-on-methods="com.curiositybox.testcases.LoginPageTest.loginFormverifyTest" finished-at="2019-04-10T05:49:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.curiositybox.testcases.LoginPageTest@cb5822]" name="tearDown" is-config="true" duration-ms="824" started-at="2019-04-10T05:49:51Z" finished-at="2019-04-10T05:49:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.curiositybox.testcases.LoginPageTest -->
+    </test> <!-- Test2s -->
+    <test name="Test3s" duration-ms="69742" started-at="2019-04-10T05:49:52Z" finished-at="2019-04-10T05:51:01Z">
+      <class name="com.curiositybox.testcases.HomePageTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.curiositybox.testcases.HomePageTest@46d56d67]" name="setup" is-config="true" duration-ms="24115" started-at="2019-04-10T05:49:52Z" finished-at="2019-04-10T05:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="titleVerifyTest()[pri:1, instance:com.curiositybox.testcases.HomePageTest@46d56d67]" name="titleVerifyTest" duration-ms="7" started-at="2019-04-10T05:50:16Z" finished-at="2019-04-10T05:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- titleVerifyTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.curiositybox.testcases.HomePageTest@46d56d67]" name="teardown" is-config="true" duration-ms="646" started-at="2019-04-10T05:50:16Z" finished-at="2019-04-10T05:50:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.curiositybox.testcases.HomePageTest@46d56d67]" name="setup" is-config="true" duration-ms="24069" started-at="2019-04-10T05:50:16Z" finished-at="2019-04-10T05:50:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUsername()[pri:2, instance:com.curiositybox.testcases.HomePageTest@46d56d67]" name="verifyUsername" duration-ms="81" started-at="2019-04-10T05:50:40Z" finished-at="2019-04-10T05:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUsername -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.curiositybox.testcases.HomePageTest@46d56d67]" name="teardown" is-config="true" duration-ms="757" started-at="2019-04-10T05:50:41Z" finished-at="2019-04-10T05:50:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.curiositybox.testcases.HomePageTest@46d56d67]" name="setup" is-config="true" duration-ms="18738" started-at="2019-04-10T05:50:41Z" finished-at="2019-04-10T05:51:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyFooterLinksTest()[pri:3, instance:com.curiositybox.testcases.HomePageTest@46d56d67]" name="verifyFooterLinksTest" duration-ms="529" started-at="2019-04-10T05:51:00Z" finished-at="2019-04-10T05:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFooterLinksTest -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.curiositybox.testcases.HomePageTest@46d56d67]" name="teardown" is-config="true" duration-ms="790" started-at="2019-04-10T05:51:01Z" finished-at="2019-04-10T05:51:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.curiositybox.testcases.HomePageTest -->
+    </test> <!-- Test3s -->
+  </suite> <!-- Suite -->
+</testng-results>

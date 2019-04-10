@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [curiositybox]">
+  <listeners>
+    <listener class-name="com.curiositybox.ExtentReportListner.ExtentReportListner"/>
+  </listeners>
+  <test thread-count="4" name="curiosityboxHomepage Test Cases(failed)">
+    <classes>
+      <class name="com.curiositybox.testcases.HomePageTest">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifyFooterLinksTest"/>
+        </methods>
+      </class> <!-- com.curiositybox.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- curiosityboxHomepage Test Cases(failed) -->
+</suite> <!-- Failed suite [curiositybox] -->

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="curiositybox" thread-count="4">
+
+        <test name="curiosityboxSignup Test Cases">
+    <classes>
+      <class name="com.curiositybox.testcases.SignUpPageTest"/>
+    </classes>
+   </test>
+  <test name="curiosityboxlogin Test Cases">
+    <classes>
+      <class name="com.curiositybox.testcases.LoginPageTest"/>
+    </classes>
+  </test> 
+  
+  <test name="curiosityboxHomepage Test Cases">
+    <classes>
+      <class name="com.curiositybox.testcases.HomePageTest"/>
+    </classes> 
+  </test> 
+  <test name="curiosityboxGiftspage Test Cases">
+    <classes>
+      <class name="com.curiositybox.testcases.GiftsPageTest"/>
+    </classes> 
+  </test> 
+  
+  <!-- Test -->
+</suite> <!-- Suite -->
