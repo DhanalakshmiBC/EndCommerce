@@ -1,15 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test1s(failed)">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [curiositybox]">
+  <test thread-count="4" name="curiosityboxSignup Test Cases(failed)">
+    <classes>
+      <class name="com.curiositybox.testcases.SignUpPageTest">
+        <methods>
+          <include name="registerTest"/>
+          <include name="teardown"/>
+          <include name="registerFormverifyTest"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.curiositybox.testcases.SignUpPageTest -->
+    </classes>
+  </test> <!-- curiosityboxSignup Test Cases(failed) -->
+  <test thread-count="4" name="curiosityboxlogin Test Cases(failed)">
+    <classes>
+      <class name="com.curiositybox.testcases.LoginPageTest">
+        <methods>
+          <include name="loginFormverifyTest"/>
+          <include name="loginTest"/>
+          <include name="urlverifyTest"/>
+          <include name="verifyloginpageTest"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.curiositybox.testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- curiosityboxlogin Test Cases(failed) -->
+  <test thread-count="4" name="curiosityboxHomepage Test Cases(failed)">
+    <classes>
+      <class name="com.curiositybox.testcases.HomePageTest">
+        <methods>
+          <include name="verifyUsername"/>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="verifyFooterLinksTest"/>
+          <include name="titleVerifyTest"/>
+        </methods>
+      </class> <!-- com.curiositybox.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- curiosityboxHomepage Test Cases(failed) -->
+  <test thread-count="4" name="curiosityboxGiftspage Test Cases(failed)">
     <classes>
       <class name="com.curiositybox.testcases.GiftsPageTest">
         <methods>
           <include name="VerifyProductTest"/>
           <include name="tearDown"/>
+          <include name="titleVerifyTest"/>
           <include name="setup"/>
         </methods>
       </class> <!-- com.curiositybox.testcases.GiftsPageTest -->
     </classes>
-  </test> <!-- Test1s(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- curiosityboxGiftspage Test Cases(failed) -->
+</suite> <!-- Failed suite [curiositybox] -->
